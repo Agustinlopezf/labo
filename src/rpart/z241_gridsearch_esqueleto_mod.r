@@ -98,6 +98,7 @@ cat( file=archivo_salida,
      sep= "",
      "max_depth", "\t",
      "min_split", "\t",
+     "min_bucket", "\t",
      "ganancia_promedio", "\n")
 
 
@@ -107,11 +108,14 @@ for( vmax_depth  in  c( 4, 6, 8, 10, 12, 14 )  )
 {
 for( vmin_split  in  c( 1000, 800, 600, 400, 200, 100, 50, 20, 10 )  )
 {
+  
+  for(vmin_bucket in c( 500, 400, 300, 200, 100, 50, 20, 10, 5 ) )
+  {
 
   #notar como se agrega
   param_basicos  <- list( "cp"=         -0.5,       #complejidad minima
                           "minsplit"=  vmin_split,  #minima cantidad de registros en un nodo para hacer el split
-                          "minbucket"=  5,          #minima cantidad de registros en una hoja
+                          "minbucket"=  vmin_bucket,          #minima cantidad de registros en una hoja
                           "maxdepth"=  vmax_depth ) #profundidad máxima del arbol
 
   #Un solo llamado, con la semilla 17
@@ -123,7 +127,10 @@ for( vmin_split  in  c( 1000, 800, 600, 400, 200, 100, 50, 20, 10 )  )
         sep= "",
         vmax_depth, "\t",
         vmin_split, "\t",
+        vmin_bucket, "\t",
         ganancia_promedio, "\n"  )
+  }
 
 }
 }
+

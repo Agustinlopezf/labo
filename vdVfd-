@@ -1,0 +1,224 @@
+[33mcommit 48a26eb66f70d758cf638ef4914bb24f2e2b7d26[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Merge: a3d153b 2f354ef
+Author: GustavoDenicolay <gustavo.denicolay@gmail.com>
+Date:   Sun Apr 2 01:09:57 2023 -0300
+
+    sync main to develop
+
+[33mcommit 2f354ef277a5027f36d4dbf61cabfefada017455[m
+Merge: e0932eb 9e7f4c7
+Author: GustavoDenicolay <gustavo.denicolay@gmail.com>
+Date:   Sun Apr 2 01:09:46 2023 -0300
+
+    sync develop to feature/z241_gridsearch_esqueleto
+
+[33mcommit 9e7f4c76d1973fac42c1e5c77230cf5b06ed625e[m
+Author: GustavoDenicolay <gustavo.denicolay@gmail.com>
+Date:   Sun Apr 2 01:09:29 2023 -0300
+
+    z241_gridsearch_esqueleto.r
+
+[33mcommit a3d153b66e6fc5db7e6819099f346e9ba0eb2640[m
+Merge: cc4ba4b e0932eb
+Author: GustavoDenicolay <gustavo.denicolay@gmail.com>
+Date:   Sun Apr 2 00:46:43 2023 -0300
+
+    sync main to develop
+
+[33mcommit e0932ebb8b266878e82545ba36ecf04e8e6aed2f[m
+Merge: b23b1df 5fc9cc8
+Author: GustavoDenicolay <gustavo.denicolay@gmail.com>
+Date:   Sun Apr 2 00:46:27 2023 -0300
+
+    sync develop to feature/zero2hero_01_11
+
+[33mcommit 5fc9cc87ead57f708424be0340f0ad6c2f52cacf[m
+Author: GustavoDenicolay <gustavo.denicolay@gmail.com>
+Date:   Sun Apr 2 00:46:09 2023 -0300
+
+    zero2hero_0111.ipynb
+
+[33mcommit 189424f3d0a35f0d4df2fb88c4970dbc1b1ac231[m
+Author: GustavoDenicolay <gustavo.denicolay@gmail.com>
+Date:   Sun Apr 2 00:46:09 2023 -0300
+
+    zero2hero_0110.ipynb
+
+[33mcommit 219e35bd9390e3fa0cfb0072051c0dc769328104[m
+Author: GustavoDenicolay <gustavo.denicolay@gmail.com>
+Date:   Sun Apr 2 00:46:09 2023 -0300
+
+    zero2hero_0109.ipynb
+
+[33mcommit e0e17583c5ce735f09e4ce422de34804f65a4543[m
+Author: GustavoDenicolay <gustavo.denicolay@gmail.com>
+Date:   Sun Apr 2 00:46:08 2023 -0300
+
+    zero2hero_0108.ipynb
+
+[33mcommit 4b329d1c1f6c32049921b9d0e67cd006b13ea8fd[m
+Author: GustavoDenicolay <gustavo.denicolay@gmail.com>
+Date:   Sun Apr 2 00:46:08 2023 -0300
+
+    zero2hero_0107.ipynb
+
+[33mcommit e897be6a9bd9c9b176f216eb48804f05d753d1c4[m
+Author: GustavoDenicolay <gustavo.denicolay@gmail.com>
+Date:   Sun Apr 2 00:46:08 2023 -0300
+
+    zero2hero_0106.ipynb
+
+[33mcommit 6058094c3e5172de3e1f541438a418645880acc7[m
+Author: GustavoDenicolay <gustavo.denicolay@gmail.com>
+Date:   Sun Apr 2 00:46:08 2023 -0300
+
+    zero2hero_0105.ipynb
+
+[33mcommit e1208ac6be1b68b62a9f6686e654722d69ed5879[m
+Author: GustavoDenicolay <gustavo.denicolay@gmail.com>
+Date:   Sun Apr 2 00:46:08 2023 -0300
+
+    zero2hero_0104.ipynb
+
+[33mcommit f9302a1ad7f86b6a4d5fbe3b68e77c46831fc2fd[m
+Author: GustavoDenicolay <gustavo.denicolay@gmail.com>
+Date:   Sun Apr 2 00:46:08 2023 -0300
+
+    zero2hero_0103.ipynb
+
+[33mcommit 1fba8c90a1bdce1c3645efe4d252b6dec26c28ff[m
+Author: GustavoDenicolay <gustavo.denicolay@gmail.com>
+Date:   Sun Apr 2 00:46:08 2023 -0300
+
+    zero2hero_0102.ipynb
+
+[33mcommit 9b5d969e917522412bcb5ad5bcf7e986805f4081[m
+Author: GustavoDenicolay <gustavo.denicolay@gmail.com>
+Date:   Sun Apr 2 00:46:07 2023 -0300
+
+    zero2hero_0101.ipynb
+
+[33mcommit b23b1df47df7d490884429ddd5f636094f767aac[m
+Merge: ed60c78 cc4ba4b
+Author: GustavoDenicolay <gustavo.denicolay@gmail.com>
+Date:   Sun Apr 2 00:45:28 2023 -0300
+
+    sync main to develop
+
+[33mcommit cc4ba4ba4add7541bd251d79c48983d20eef09e3[m
+Merge: fba4b5b ed60c78
+Author: GustavoDenicolay <gustavo.denicolay@gmail.com>
+Date:   Sat Apr 1 22:54:45 2023 -0300
+
+    sync main to develop
+
+[33mcommit ed60c78cf129f0ef8ec6431396f84449b0df789e[m
+Merge: 5ea6c4b d102f05
+Author: GustavoDenicolay <gustavo.denicolay@gmail.com>
+Date:   Sat Apr 1 22:54:35 2023 -0300
+
+    sync develop to feature/z231_mejormodelo
+
+[33mcommit d102f05f8cae407187c3ed84918b57c6bb35fd9e[m
+Author: GustavoDenicolay <gustavo.denicolay@gmail.com>
+Date:   Sat Apr 1 22:54:26 2023 -0300
+
+    z231_mejormodelo.r
+
+[33mcommit fba4b5b36579d9a8141cf9e1a6168158e29fc1e9[m
+Merge: 4d96534 5ea6c4b
+Author: GustavoDenicolay <gustavo.denicolay@gmail.com>
+Date:   Sat Apr 1 22:51:59 2023 -0300
+
+    sync main to develop
+
+[33mcommit 5ea6c4bd6e823a2373dd2da9cd50e68969421620[m
+Merge: e23a0c5 60a5da1
+Author: GustavoDenicolay <gustavo.denicolay@gmail.com>
+Date:   Sat Apr 1 22:51:47 2023 -0300
+
+    sync develop to feature/z222_traintest_montecarlo
+
+[33mcommit 60a5da1c60a9ca434d021f490ce142963250e049[m
+Author: GustavoDenicolay <gustavo.denicolay@gmail.com>
+Date:   Sat Apr 1 22:51:31 2023 -0300
+
+    z222_traintest_montecarlo.r
+
+[33mcommit 4d96534db6d4bc6f81a5045741b52f0ff78e4222[m
+Merge: b7b7c22 e23a0c5
+Author: GustavoDenicolay <gustavo.denicolay@gmail.com>
+Date:   Sat Apr 1 22:48:01 2023 -0300
+
+    sync main to develop
+
+[33mcommit e23a0c5ba15f465aa1c5d69d0e5027a6f4fce556[m
+Merge: c2aeebd c234e8f
+Author: GustavoDenicolay <gustavo.denicolay@gmail.com>
+Date:   Sat Apr 1 22:47:50 2023 -0300
+
+    sync develop to feature/z211_traintest_estratificado
+
+[33mcommit c234e8f1ecfee473e0512ef9925bcf46ba9ba0ce[m
+Author: GustavoDenicolay <gustavo.denicolay@gmail.com>
+Date:   Sat Apr 1 22:47:37 2023 -0300
+
+    z211_traintest_estratificado.r
+
+[33mcommit b7b7c22e90734e05c2dabecea12df2f5f74202db[m
+Merge: 2ad4a28 c2aeebd
+Author: GustavoDenicolay <gustavo.denicolay@gmail.com>
+Date:   Sat Apr 1 19:13:38 2023 -0300
+
+    sync main to develop
+
+[33mcommit c2aeebdb01a43ff7f709d03531d007cd2a165901[m
+Merge: 25f93fa 4c76862
+Author: GustavoDenicolay <gustavo.denicolay@gmail.com>
+Date:   Sat Apr 1 19:13:29 2023 -0300
+
+    sync develop to feature/z102_PrimerModelo
+
+[33mcommit 4c76862d76d083af4ed6c156e8186697abee3e9e[m
+Author: GustavoDenicolay <gustavo.denicolay@gmail.com>
+Date:   Sat Apr 1 19:13:11 2023 -0300
+
+    z102_PrimerModelo.ipynb
+
+[33mcommit 2ad4a28fda9d2f76c9503e9f51a8da13caa40d0b[m
+Merge: a1c6b27 25f93fa
+Author: GustavoDenicolay <gustavo.denicolay@gmail.com>
+Date:   Sat Apr 1 19:11:27 2023 -0300
+
+    sync main to develop
+
+[33mcommit 25f93fa1321f9bf55ebf2decc4d50c9d4e1b18f5[m
+Merge: fc01e0a 4a40a34
+Author: GustavoDenicolay <gustavo.denicolay@gmail.com>
+Date:   Sat Apr 1 19:11:02 2023 -0300
+
+    sync develop to feature/z102_PrimerModelo
+
+[33mcommit 4a40a343663465630c4bff540b87fd762cefd4fc[m
+Author: GustavoDenicolay <gustavo.denicolay@gmail.com>
+Date:   Sat Apr 1 19:10:30 2023 -0300
+
+    z101_PrimerModelo.R
+
+[33mcommit fc01e0ac765a9231a5addd2eb937778e8f410c4a[m
+Author: GustavoDenicolay <gustavo.denicolay@gmail.com>
+Date:   Sat Apr 1 19:08:37 2023 -0300
+
+    develop empty
+
+[33mcommit a1c6b2702410d8bbb9ed0448a923ab783eb0741c[m
+Author: GustavoDenicolay <gustavo.denicolay@gmail.com>
+Date:   Sat Apr 1 10:35:53 2023 -0300
+
+    .gitignore
+
+[33mcommit 294bc7241f4061b840f12caa9b7266749a58ebc1[m
+Author: GustavoDenicolay <gustavo.denicolay@gmail.com>
+Date:   Sat Apr 1 10:35:53 2023 -0300
+
+    .gitattributes
