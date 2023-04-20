@@ -11,8 +11,8 @@ require("rpart")
 
 #parmatros experimento
 PARAM <- list()
-PARAM$experimento  <- 3210    #Nombre original 3210
-PARAM$semilla  <- 328789      #Establezco la semilla aleatoria, cambiar por SU primer semilla
+#PARAM$experimento  <- 3210    #Se va a modificar en el for loop
+PARAM$semilla  <- 100169      #Establezco la semilla aleatoria, cambiar por SU primer semilla
 
 #parameetros rpart
 PARAM$rpart_param   <- list( "cp"=          -1,
@@ -21,10 +21,10 @@ PARAM$rpart_param   <- list( "cp"=          -1,
                               "maxdepth"=   10 )
 
 #parametros  arbol
-PARAM$feature_fraction  <- 0.5  #entreno cada arbol con solo 50% de las variables variables
-PARAM$num_trees_max  <- 500 #voy a generar 500 arboles, a mas arboles mas tiempo de proceso y MEJOR MODELO, pero ganancias marginales
+#PARAM$feature_fraction  <- 0.5  #Se va a modificar en el for loop
+PARAM$num_trees_max  <- 50 #voy a generar 500 arboles, a mas arboles mas tiempo de proceso y MEJOR MODELO, pero ganancias marginales
 
-
+lista_exp <- list(experimento=c(3211,3212,3213), feature_fraction=c(0.4,0.5,0.6))
 #------------------------------------------------------------------------------
 #------------------------------------------------------------------------------
 #Aqui comienza el programa
@@ -36,6 +36,11 @@ dataset  <- fread("./datasets/dataset_pequeno.csv")
 
 
 #creo la carpeta donde va el experimento
+
+for (i in 1:(length(lista_exp)+1)){
+  PARAM$experimento <- lista_exp$experimento[i]
+  PARAM$feature_fraction <- lista_exp$feature_fraction[i]
+  
 dir.create( "./exp/", showWarnings = FALSE  )
 carpeta_experimento  <-  paste0( "./exp/KA", PARAM$experimento, "/")
 dir.create( paste0( "./exp/KA", PARAM$experimento, "/"), 
@@ -66,6 +71,9 @@ set.seed(PARAM$semilla) #Establezco la semilla aleatoria
 
 for( arbolito in  1:PARAM$num_trees_max )
 {
+  
+
+    
   qty_campos_a_utilizar  <- as.integer( length(campos_buenos)* PARAM$feature_fraction )
   campos_random  <- sample( campos_buenos, qty_campos_a_utilizar )
   
@@ -103,6 +111,6 @@ for( arbolito in  1:PARAM$num_trees_max )
 
     cat( arbolito, " " )
   }
-  
+  }
 }
 
