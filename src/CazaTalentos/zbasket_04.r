@@ -1,6 +1,6 @@
 
 
-set.seed( 102191 )
+set.seed( 328789 )
 
 #calcula cuantos encestes logra un jugador con indice de enceste prob
 #que hace qyt tiros libres
@@ -26,3 +26,4 @@ for( i in 1:10 ){
 
   cat( aciertos_torneo, "\t", aciertos_segunda, "\n" )
 }
+

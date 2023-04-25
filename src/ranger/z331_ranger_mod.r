@@ -47,8 +47,8 @@ modelo  <- ranger( formula= "clase_ternaria ~ .",
                    num.trees=     param$num.trees,
                    mtry=          param$mtry,
                    min.node.size= param$min.node.size,
-                   max.depth=     param$max.depth
-                   #,class.weights= c( 1,40, 1)  #servira cambiar los pesos ?
+                   max.depth=     param$max.depth,
+                   class.weights= c( 1,40, 1, 1)  #servira cambiar los pesos ?
                  )
 
 #aplico el modelo recien creado a los datos del futuro
