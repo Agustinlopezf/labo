@@ -81,7 +81,7 @@ PARAM$bo_lgb <- makeParamSet(
          makeIntegerParam("num_leaves",       lower=    8L,   upper=  1024L),
          makeIntegerParam("min_data_in_leaf", lower=  100L,   upper= 50000L),
          makeNumericParam("drop_rate",        lower=    0.015, upper=     0.3),
-         makeNumericParam("skip_drop",        lower=    0.3, upper=     0.8),
+         makeNumericParam("skip_drop",        lower=    0.3, upper=     0.8)
         )
 
 
