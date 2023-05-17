@@ -32,7 +32,7 @@ require("lightgbm")
 #Parametros del script
 PARAM  <- list()
 PARAM$experimento  <- "ZZ6920_unbalanced__scaleposweight"
-PARAM$exp_input  <- "HT6510_unbalanced"
+PARAM$exp_input  <- "HT6510_unbalanced_scaleposweight"
 
 #Atencion, que se procesan 5 modelos y cada uno con 5 semillas, ajuste a SUS necesidades
 PARAM$modelos_rank  <- c( 1, 2, 5, 10, 50 )  #Que modelos quiero, segun su posicion en el ranking
