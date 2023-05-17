@@ -80,7 +80,7 @@ PARAM$bo_lgb <- makeParamSet(
          makeNumericParam("feature_fraction", lower=    0.01, upper=     1.0),
          makeIntegerParam("num_leaves",       lower=    8L,   upper=  1024L),
          makeIntegerParam("min_data_in_leaf", lower=  100L,   upper= 50000L),
-         makeNumericParam("scale_pos_weight",    lower=    1, upper=     99),
+         makeNumericParam("scale_pos_weight",    lower=    1, upper=     99)
         )
 
 
