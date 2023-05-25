@@ -20,8 +20,8 @@ require("lightgbm")
 
 #Parametros del script
 PARAM  <- list()
-PARAM$experimento  <- "ZZ7990_futurejulio"
-PARAM$exp_input  <- "HT7510_futurejulio"
+PARAM$experimento  <- "ZZ7990_kaggle_masmeses"
+PARAM$exp_input  <- "HT7510_kaggle_masmeses"
 
 #Atencion, que cada modelos se procesa con 5 semillas, ajuste a SUS necesidades
 PARAM$modelos_rank  <- c( 1,2,3,4,5,6,7,8,9,10 )  #Que modelos quiero, segun su posicion en el ranking e la Bayesian Optimizacion, ordenado por ganancia descendente
